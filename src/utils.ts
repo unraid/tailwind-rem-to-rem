@@ -11,6 +11,10 @@ export function scaleRemFactor(
   baseFontSize = 16,
   newFontSize = 10
 ): unknown {
+  if (baseFontSize <= 0 || newFontSize <= 0) {
+    throw new Error('Font sizes must be positive numbers');
+  }
+  
   const scaleFactor = baseFontSize / newFontSize; // baseFontSize / newFontSize;
   if (input == null) return input;
 
