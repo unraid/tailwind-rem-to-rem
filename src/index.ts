@@ -9,13 +9,13 @@ export default plugin.withOptions(
       // Plugin functionality can be added here if needed in the future
     };
   },
-  (options?: {
-    baseFontSize?: number;
-    newFontSize?: number;
-  }): Partial<Config> => {
-    const baseFontSize = options?.baseFontSize ?? 16;
-    const newFontSize = options?.newFontSize ?? 10;
+  (options: { baseFontSize: number; newFontSize: number }): Partial<Config> => {
+    const baseFontSize = options?.baseFontSize;
+    const newFontSize = options?.newFontSize;
 
+    if (baseFontSize <= 0 || newFontSize <= 0) {
+      throw new Error("Font sizes must be positive numbers");
+    }
     return {
       theme: scaleRemFactor(
         defaultTheme,

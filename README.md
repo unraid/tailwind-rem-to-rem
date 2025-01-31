@@ -24,8 +24,8 @@ export default {
 
 ## Options
 
-- `baseFontSize`: The base font size to convert from (default: 16)
-- `newFontSize`: The new font size to convert to (default: 10)
+- `baseFontSize`: The base font size to convert from
+- `newFontSize`: The new font size to convert to
 
 ## License
 
