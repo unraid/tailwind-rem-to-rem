@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/unraid/tailwind-rem-to-rem/compare/v1.0.3...v1.1.0) (2025-01-31)
+
+
+### Features
+
+* add outputs to main.yml ([1426fa6](https://github.com/unraid/tailwind-rem-to-rem/commit/1426fa6a81e7a4829378c4096115e5f3660fc7bc))
+
+
+### Bug Fixes
+
+* use boolean operator on releases_created ([88fbaa7](https://github.com/unraid/tailwind-rem-to-rem/commit/88fbaa7419559a3156bae7fdc2e986a513c3a711))
+
 ## [1.0.3](https://github.com/unraid/tailwind-rem-to-rem/compare/v1.0.2...v1.0.3) (2025-01-31)
 
 
