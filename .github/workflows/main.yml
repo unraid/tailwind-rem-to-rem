@@ -17,6 +17,9 @@ jobs:
         id: release
         with:
           release-type: node
+    outputs:
+        releases_created: ${{ steps.release.outputs.releases_created }}
+        tag_name: ${{ steps.release.outputs.tag_name }}
 
   publish-npm:
     needs: release-please
