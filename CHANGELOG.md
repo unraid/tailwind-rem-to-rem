@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/unraid/tailwind-rem-to-rem/compare/v1.0.2...v1.0.3) (2025-01-31)
+
+
+### Bug Fixes
+
+* release please github action tag ([c17682b](https://github.com/unraid/tailwind-rem-to-rem/commit/c17682bf6e59dcda0f805a06dbc09c6a18e991e5))
+
 ## 1.0.2 (2025-01-31)
 
 
