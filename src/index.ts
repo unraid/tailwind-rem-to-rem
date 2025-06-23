@@ -9,7 +9,7 @@ export default plugin.withOptions(
       // Plugin functionality can be added here if needed in the future
     };
   },
-  (options?: { baseFontSize: number; newFontSize: number }): Partial<Config> => {
+  (options: { baseFontSize: number; newFontSize: number }): Partial<Config> => {
     if (!options || typeof options.baseFontSize !== 'number' || typeof options.newFontSize !== 'number') {
       throw new Error("Options with baseFontSize and newFontSize are required");
     }
