@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/unraid/tailwind-rem-to-rem/compare/v1.1.0...v2.0.0) (2025-06-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* move to tailwind v4 ([#12](https://github.com/unraid/tailwind-rem-to-rem/issues/12))
+
+### Features
+
+* move to tailwind v4 ([#12](https://github.com/unraid/tailwind-rem-to-rem/issues/12)) ([7380332](https://github.com/unraid/tailwind-rem-to-rem/commit/738033280007a664138597bd958f3e2794afafa2))
+
 ## [1.1.0](https://github.com/unraid/tailwind-rem-to-rem/compare/v1.0.3...v1.1.0) (2025-01-31)
 
 
